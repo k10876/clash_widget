@@ -15,10 +15,10 @@ android {
         versionName = "2.0.0"
         
         // Minimal resource configurations
-        resConfigs("en")
+        resourceConfigurations.add("en")
         
         // Build config for debug flag
-        buildConfig = true
+        buildFeatures { buildConfig = true }
         
         // Test instrumentation runner
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -56,7 +56,7 @@ android {
         renderScript = false
         resValues = false
         shaders = false
-        buildConfig = true
+        buildFeatures { buildConfig = true }
     }
     
     // Test options
