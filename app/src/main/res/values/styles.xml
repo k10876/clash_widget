@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Minimal theme for widget -->
+    <style name="WidgetTheme" parent="android:Theme.Material.NoDisplay">
+        <!-- No display activity, minimal theme -->
+    </style>
+</resources>
